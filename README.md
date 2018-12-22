@@ -3,10 +3,10 @@ TensorFlow Framework Tutorials
 
 https://www.tensorflow.org/tutorials/
 
-/Learn      : Learn and use ML
-/Research   : Research and experimentation
-/Production : ML at production scale
-/Generative : Generative models
-/Images     : Images
-/Sequences  : Sequences
-/DataRep    : Data representation
+/Learn      : Learn and use ML<br/>
+/Research   : Research and experimentation<br/>
+/Production : ML at production scale<br/>
+/Generative : Generative models<br/>
+/Images     : Images<br/>
+/Sequences  : Sequences<br/>
+/DataRep    : Data representation<br/>
