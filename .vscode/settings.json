@@ -1,0 +1,4 @@
+{
+    "python.condaPath": "/home/miniconda3/bin",
+    "python.pythonPath": "/home/sumandeep/.conda/envs/tf1.14/bin/python"
+}
