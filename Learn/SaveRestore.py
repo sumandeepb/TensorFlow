@@ -1,3 +1,4 @@
+# demostrate save and load capabilities of keras
 from __future__ import absolute_import, division, print_function
 import os
 import tensorflow as tf
@@ -41,9 +42,9 @@ model.summary()
 model.fit(train_images, train_labels, epochs=20,
           validation_data=(test_images, test_labels),
           callbacks=[cp_callback])
-model.save_weights('my_checkpoint')
-model.save('my_model.h5')
-# loaded using keras.models.load_model('my_model.h5')
+model.save_weights('./my_checkpoint.ckpt')
+model.save('./my_model.h5')
+# loaded using keras.models.load_model('./my_model.h5')
 
 # create new untrained model
 model = create_model()
